@@ -12,6 +12,7 @@ public class SearchTests extends TestBase{
 	public void search_by_price() {
 		
 		webDriver.get("http://www.timeandtraining.net");
+		System.out.println("test pull request");
 	}
 
 }
