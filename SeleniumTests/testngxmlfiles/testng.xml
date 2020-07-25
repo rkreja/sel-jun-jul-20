@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Demo parameter test suite">
+  <test name="testing parameter" >
+  
+  	<parameter name="loginUserId" value="jsmith@gmail.com"></parameter>
+  	<parameter name="loginUserPwd" value="3w58473457"></parameter>
+   	
+   	<parameter name="firstName" value="Mohammed"></parameter>
+   	<parameter name="lastName" value="Hasan"></parameter>
+   	<parameter name="emailId" value="jsmith@msn.com"></parameter>
+   	<parameter name="password" value="09876543"></parameter>
+   	<parameter name="phone" value="5715715711"></parameter>
+   	
+   	<classes>
+   		<class name="com.automation.tests.testngparameters.RegistrationTests"></class>
+   	</classes> 	
+
+   	
+  </test>
+ 
+
+</suite>

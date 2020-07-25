@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="smoke test suite">
+
+  <test name="smoke test with chrome" >
+
+  <packages>
+  <package name="com.automationpractice.*"></package>
+  
+  
+  </packages>
+
+  
+  </test>
+ 
+
+</suite>

@@ -1,0 +1,48 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="smoke test suite">
+
+  <test name="smoke test with chrome" >
+  <groups>
+	  <run>
+	  	<include name="smoke"></include>
+	  </run>
+  </groups>
+  
+  <packages>
+  <package name="com.automationpractice.*"></package>
+  </packages>
+<!--   <classes>
+  	
+  	<class name="com.automationpractice.actions.ActionDemo">
+  		<methods>  		
+  			<include name="dragAndDrop"></include>
+  		</methods>
+  	
+  	</class>
+  	
+  		
+  	<class name="com.automationpractice.tests.howtoread.Read">
+  		<methods>  		
+  			<include name="readDemo"></include>
+  		</methods>
+  	
+  	</class>
+  	
+  			
+  	<class name="com.automationpractice.tests.search.SearchTests">
+  		<methods>  		
+  			<include name="Simple_search_and_view_as_grid_and_list"></include>
+  			<include name="Search_with_filter"></include>
+  		</methods>
+  	
+  	</class>
+  	
+  	
+  	
+  </classes> -->
+  
+  </test>
+ 
+
+</suite>

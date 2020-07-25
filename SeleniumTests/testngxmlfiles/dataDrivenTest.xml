@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="login test suite">
+
+  <test name="test with chrome" >
+
+
+<parameter name="numberOfPassenger" value="4"/>
+<parameter name="departureAirport" value="LHR"/>
+<parameter name="arrivalAirport" value="DXB"/>
+<parameter name="flightDate" value="Jul 30 2021"/>
+<parameter name="oneWay" value="true"/>
+
+
+ <classes>
+ <class name="com.automation.tests.testngparameters.DataDrivenTest"></class>
+ </classes>
+
+  
+  </test>
+ 
+
+</suite>

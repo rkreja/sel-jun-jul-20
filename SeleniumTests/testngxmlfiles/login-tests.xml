@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="login test suite">
+
+  <test name="test with chrome" >
+
+  <packages>
+  <package name="net.timeandtraining.tests"></package>
+  </packages>
+
+  
+  </test>
+ 
+
+</suite>
