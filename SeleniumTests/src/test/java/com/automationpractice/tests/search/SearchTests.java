@@ -12,6 +12,7 @@ public class SearchTests extends TestBase{
 
 		
 //		Go to http://www.automationpractice.com
+		webDriver.get("http://www.automationpractice.com");
 		
 //		Mouse hover over 'Women' menu
 		
